@@ -70,6 +70,11 @@ body {
     font-weight:bold;
 }
 
+#menu a:active {
+    font-weight:bold;
+    color: rgba(56, 66, 72, 0.9);
+}
+
 #menu,
 #logo {
     line-height: 85px;
