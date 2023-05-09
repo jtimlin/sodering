@@ -13,12 +13,13 @@ body {
 
 #container {
     margin-top: 25px;
+    position: relative;
 }
 
 #logo-menu {
     height: 80px;
     width: 70%;
-    background-color: #F5F4E6;
+    background-color: rgba(245, 244, 230, 0.9);
     border-radius: 6px;
     margin: 0 auto;
     box-shadow: 0 8px 13px -12px rgba(0, 0, 0, 0.56), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
@@ -65,12 +66,12 @@ body {
     line-height: 85px;
 }
 
-#index-image-container {
-    margin: 0;
-}
+#index-image-container {}
 
 #index-image {
     height: 600px;
     width: 100%;
     background: url('../images/index_big_img.jpg') no-repeat center center;
+    margin-top: -105px;
+    background-color: #7E8479;
 }
