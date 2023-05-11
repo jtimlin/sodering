@@ -67,11 +67,11 @@ body {
 }
 
 #menu a:hover {
-    font-weight:bold;
+    font-weight: bold;
 }
 
 #menu a:active {
-    font-weight:bold;
+    font-weight: bold;
     color: rgba(56, 66, 72, 0.9);
 }
 
@@ -81,7 +81,7 @@ body {
 }
 
 #index-image-outer {
-    height: 500px;
+
     width: 100%;
     display: flex;
     justify-content: center;
@@ -100,7 +100,7 @@ body {
     font-size: 120%;
     font-family: Josefin Sans, sans-serif;
     letter-spacing: 4px;
-    color:rgba(245, 244, 230, 0.9);
+    color: rgba(245, 244, 230, 0.9);
     border-radius: 6px;
     width: 500px;
     height: 65px;
@@ -111,12 +111,10 @@ body {
     position: absolute;
 }
 
-#cards-outer {
-
-}
+#cards-outer {}
 
 #cards-header {
-    text-align:center;
+    text-align: center;
     font-size: 120%;
     font-family: Taviraj, sans-serif;
 }
@@ -126,13 +124,13 @@ body {
     margin-left: 10%;
     width: 33%;
     float: left;
-    background-color:blue;
+    background-color: blue;
 }
 
 #terrace-glazing-card {
     margin-top: 10px;
-    margin-right:10%;
+    margin-right: 10%;
     width: 33%;
     float: right;
-    background-color:red;
+    background-color: red;
 }
