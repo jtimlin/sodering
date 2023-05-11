@@ -138,6 +138,20 @@ body {
     margin: 30px;
 }
 
+#card-content a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#card-content a:hover {
+    font-weight: bold;
+}
+
+#card-content a:active {
+    font-weight: bold;
+    color: rgba(56, 66, 72, 0.9);
+}
+
 #balcony-glazing-card-image {
     background: url('../images/balcony_glazing.jpg') no-repeat center center;
     background-size: cover;
