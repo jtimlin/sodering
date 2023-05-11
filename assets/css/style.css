@@ -9,6 +9,7 @@
 body {
     font-family: Taviraj, Josefin Sans, Economica, sans-serif;
     color: #384248;
+    background-color: #7E8479;
 }
 
 #container {
@@ -119,11 +120,32 @@ body {
 }
 
 #balcony-glazing-card {
-    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    border-radius: 6px;
+    margin-top: 50px;
     margin-left: 10%;
     width: 33%;
     float: left;
-    background-color: blue;
+    background-color: rgba(245, 244, 230, 0.9);
+    box-shadow: 0 8px 13px -12px rgba(0, 0, 0, 0.56), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+#balcony-glazing-card p {
+    margin: 30px;
+}
+
+#balcony-glazing-card-image {
+    background: url('../images/balcony_glazing.jpg') no-repeat center center;
+    background-size: fill;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -30px;
+    border-radius: 6px;
+    box-shadow: 0 8px 13px -12px rgba(0, 0, 0, 0.56), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 
 #terrace-glazing-card {
