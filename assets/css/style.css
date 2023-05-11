@@ -93,7 +93,7 @@ body {
     background: url('../images/index_big_img.jpg') no-repeat center center;
     background-size: cover;
     margin-top: -110px;
-    background-color: #7E8479;
+    background-color: #384248;
 }
 
 #cover-text {
@@ -139,7 +139,7 @@ body {
 
 #balcony-glazing-card-image {
     background: url('../images/balcony_glazing.jpg') no-repeat center center;
-    background-size: fill;
+    background-size: cover;
     height: 300px;
     position: relative;
     overflow: hidden;
@@ -169,7 +169,7 @@ body {
 
 #terrace-glazing-card-image {
     background: url('../images/terrace_glazing_2.jpg') no-repeat center center;
-    background-size: fill;
+    background-size: cover;
     height: 300px;
     position: relative;
     overflow: hidden;
@@ -185,6 +185,7 @@ body {
     position: relative;
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 #footer {
@@ -200,4 +201,18 @@ body {
     width: 70%;
     border-radius: 6px;
     box-shadow: 0 8px 13px -12px rgba(0, 0, 0, 0.56), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+#footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#footer a:hover {
+    font-weight: bold;
+}
+
+#footer a:active {
+    font-weight: bold;
+    color: rgba(56, 66, 72, 0.9);
 }
