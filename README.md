@@ -8,5 +8,5 @@ Company sales balcony and terrace glass roofs and glazings. All the images on th
 
 For the colouring: http://colormind.io/<br>
 Icons: https://fontawesome.com/<br>
-Fonts: <https://fonts.google.com/><br>
-Box shadow code: <https://getcssscan.com/css-box-shadow-examples<br>>
+Fonts: https://fonts.google.com/<br>
+Box shadow code: https://getcssscan.com/css-box-shadow-examples<br>
