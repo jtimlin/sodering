@@ -165,6 +165,19 @@ body {
     box-shadow: 0 8px 13px -12px rgba(0, 0, 0, 0.56), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 
+#product-balcony-glazing-card-image {
+    background: url('../images/balcony_glazing_1.jpg') no-repeat center center;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -30px;
+    border-radius: 6px;
+    box-shadow: 0 8px 13px -12px rgba(0, 0, 0, 0.56), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
 #terrace-glazing-card {
     display: inline-block;
     position: relative;
