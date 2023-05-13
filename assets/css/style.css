@@ -34,7 +34,7 @@ body {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     float: left;
-    font-size: 280%;
+    font-size: 2.8em;
     text-transform: uppercase;
     font-family: Economica, sans-serif;
     background-color: #384248;
@@ -47,7 +47,7 @@ body {
 }
 
 #menu {
-    font-size: 110%;
+    font-size: 1.1em;
     font-family: Josefin Sans, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -92,37 +92,36 @@ body {
     background-color: #384248;
 }
 
+#cards-outer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
 #cards-header {
     text-align: center;
-    font-size: 180%;
+    font-size: 1.8em;
     font-family: Taviraj, sans-serif;
     margin: 30px;
 }
 
-#balcony-glazing-card {
+#balcony-glazing-card,
+#product-balcony-glazing-card {
     display: inline-block;
-    position: relative;
     border-radius: 6px;
     margin-top: 50px;
-    margin-left: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-bottom: 50px;
     width: 33%;
-    float: left;
     background-color: rgba(245, 244, 230);
     box-shadow: 0 8px 13px -12px rgba(0, 0, 0, 0.56), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 
 #product-balcony-glazing-card {
-    display: inline-block;
-    position: relative;
-    border-radius: 6px;
-    margin-top: 50px;
-    margin-left: 15%;
-    margin-bottom: 50px;
     width: 70%;
     clear: both;
-    background-color: rgba(245, 244, 230);
-    box-shadow: 0 8px 13px -12px rgba(0, 0, 0, 0.56), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 
 #card-content {
@@ -143,11 +142,11 @@ body {
     font-weight: bold;
 }
 
-#balcony-glazing-card-image {
+#balcony-glazing-card-image,
+#product-balcony-glazing-card-image {
     background: url('../images/balcony_glazing.jpg') no-repeat center center;
     background-size: cover;
     height: 300px;
-    position: relative;
     overflow: hidden;
     margin-left: 15px;
     margin-right: 15px;
@@ -158,16 +157,8 @@ body {
 
 #product-balcony-glazing-card-image {
     background: url('../images/balcony_glazing_1.jpg') no-repeat center center;
-    background-size: cover;
     height: 400px;
-    position: relative;
-    overflow: hidden;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: -30px;
-    margin-bottom: 30px;
-    border-radius: 6px;
-    box-shadow: 0 8px 13px -12px rgba(0, 0, 0, 0.56), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    background-size: cover;
 }
 
 #product-balcony-glazing-card-video {
@@ -183,30 +174,22 @@ body {
     box-shadow: 0 8px 13px -12px rgba(0, 0, 0, 0.56), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 
-#terrace-glazing-card {
+#terrace-glazing-card,
+#product-terrace-glazing-card {
     display: inline-block;
-    position: relative;
     border-radius: 6px;
     margin-top: 50px;
-    margin-right: 15%;
+    margin-right: 5%;
+    margin-left: 5%;
     margin-bottom: 50px;
     width: 33%;
-    float: right;
     background-color: rgba(245, 244, 230);
     box-shadow: 0 8px 13px -12px rgba(0, 0, 0, 0.56), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 
 #product-terrace-glazing-card {
-    display: inline-block;
-    position: relative;
-    border-radius: 6px;
-    margin-top: 50px;
-    margin-right: 15%;
-    margin-bottom: 50px;
-    width: 33%;
-    float: right;
-    background-color: rgba(245, 244, 230);
-    box-shadow: 0 8px 13px -12px rgba(0, 0, 0, 0.56), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    width: 70%;
+    clear: both;
 }
 
 #terrace-glazing-card-image {
@@ -221,7 +204,6 @@ body {
 #product-terrace-glazing-card-image {
     background-size: cover;
     height: 300px;
-    position: relative;
     overflow: hidden;
     margin-left: 15px;
     margin-right: 15px;
@@ -231,15 +213,13 @@ body {
 }
 
 #footer-outer {
-    clear: both;
-    position: relative;
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
 }
 
 #footer {
-    font-size: 110%;
+    font-size: 1.1em;
     font-family: Josefin Sans, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -271,12 +251,12 @@ body {
     }
 
     #logo {
-        font-size: 200%;
+        font-size: 2em;
         top: 20%;
     }
 
     #menu {
-        font-size: 100%;
+        font-size: 1em;
         letter-spacing: 2px;
     }
 
@@ -292,6 +272,17 @@ body {
     #index-image {
         margin-top: -230px;
     }
+
+    #cards-outer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #balcony-glazing-card,
+    #terrace-glazing-card {
+        width: 90%;
+    }
 }
 
 /* Landscape phone to portrait tablet */
@@ -301,13 +292,13 @@ body {
     }
 
     #logo {
-        font-size: 200%;
+        font-size: 2em;
         top: 50%;
         overflow: hidden;
     }
 
     #menu {
-        font-size: 100%;
+        font-size: 1em;
         letter-spacing: 2px;
     }
 
