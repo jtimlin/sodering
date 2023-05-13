@@ -99,6 +99,13 @@ body {
     flex-direction: row;
 }
 
+#products-cards-outer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 #cards-header {
     text-align: center;
     font-size: 1.8em;
@@ -108,11 +115,9 @@ body {
 
 #balcony-glazing-card,
 #product-balcony-glazing-card {
-    display: inline-block;
     border-radius: 6px;
     margin-top: 50px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 2%;
     margin-bottom: 50px;
     width: 33%;
     background-color: rgba(245, 244, 230);
@@ -121,7 +126,6 @@ body {
 
 #product-balcony-glazing-card {
     width: 70%;
-    clear: both;
 }
 
 #card-content {
@@ -130,7 +134,6 @@ body {
 
 #product-card-content {
     margin: 30px;
-    clear: both;
 }
 
 #card-content a {
@@ -164,8 +167,6 @@ body {
 #product-balcony-glazing-card-video {
     height: 300px;
     width: 40%;
-    float: right;
-    position: relative;
     overflow: hidden;
     margin-left: 15px;
     margin-right: 15px;
@@ -176,11 +177,9 @@ body {
 
 #terrace-glazing-card,
 #product-terrace-glazing-card {
-    display: inline-block;
     border-radius: 6px;
     margin-top: 50px;
-    margin-right: 5%;
-    margin-left: 5%;
+    margin: 2%;
     margin-bottom: 50px;
     width: 33%;
     background-color: rgba(245, 244, 230);
@@ -189,7 +188,6 @@ body {
 
 #product-terrace-glazing-card {
     width: 70%;
-    clear: both;
 }
 
 #terrace-glazing-card-image {
@@ -246,13 +244,14 @@ body {
 /* Landscape phones and down */
 @media (max-width: 480px) {
     #logo-menu {
-        height: 140px;
+        height: 150px;
         width: 90%;
+        margin-top: 10px;
     }
 
     #logo {
         font-size: 2em;
-        top: 20%;
+        top: 30%;
     }
 
     #menu {
@@ -273,20 +272,87 @@ body {
         margin-top: -230px;
     }
 
-    #cards-outer {
+    #cards-outer,
+    #product-cards-outer {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
     #balcony-glazing-card,
-    #terrace-glazing-card {
+    #terrace-glazing-card,
+    #product-balcony-glazing-card,
+    #product-terrace-glazing-card {
         width: 90%;
+    }
+
+    #footer {
+        font-size: 1em;
+        letter-spacing: 2px;
+        line-height: 50px;
+        height: 100%;
+        width: 90%;
+        padding: 5px;
     }
 }
 
 /* Landscape phone to portrait tablet */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
+    #logo-menu {
+        width: 90%;
+        height: 150px;
+    }
+
+    #logo {
+        font-size: 2em;
+        top: 50%;
+        overflow: hidden;
+    }
+
+    #menu {
+        font-size: 1em;
+        letter-spacing: 2px;
+    }
+
+    #menu li {
+        margin-right: 20px;
+    }
+
+    #menu,
+    #logo {
+        line-height: 80px;
+    }
+
+    #index-image {
+        margin-top: -230px;
+    }
+
+    #cards-outer,
+    #product-cards-outer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #balcony-glazing-card,
+    #terrace-glazing-card,
+    #product-balcony-glazing-card,
+    #product-terrace-glazing-card {
+        width: 90%;
+    }
+
+    #footer {
+        font-size: 1em;
+        letter-spacing: 2px;
+        line-height: 50px;
+        height: 100%;
+        width: 90%;
+        padding: 5px;
+    }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
     #logo-menu {
         width: 90%;
     }
@@ -314,11 +380,26 @@ body {
     #index-image {
         margin-top: -230px;
     }
-}
 
-/* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) {
-    ...
+    #cards-outer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #balcony-glazing-card,
+    #terrace-glazing-card {
+        width: 90%;
+    }
+
+    #footer {
+        font-size: 1em;
+        letter-spacing: 2px;
+        line-height: 50px;
+        height: 100%;
+        width: 90%;
+        padding: 5px;
+    }
 }
 
 /* Large desktop */
