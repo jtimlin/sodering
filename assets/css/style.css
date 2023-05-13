@@ -243,6 +243,7 @@ body {
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
+
     #logo-menu {
         height: 150px;
         width: 90%;
@@ -260,7 +261,7 @@ body {
     }
 
     #menu li {
-        margin-right: 20px;
+        margin-right: 10px;
     }
 
     #menu,
@@ -286,6 +287,10 @@ body {
         width: 90%;
     }
 
+    #glazing-video {
+        width: 100%;
+    }
+
     #footer {
         font-size: 1em;
         letter-spacing: 2px;
@@ -298,6 +303,7 @@ body {
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
+
     #logo-menu {
         width: 90%;
         height: 150px;
@@ -381,14 +387,17 @@ body {
         margin-top: -230px;
     }
 
-    #cards-outer {
+    #cards-outer,
+    #product-cards-outer {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
     #balcony-glazing-card,
-    #terrace-glazing-card {
+    #terrace-glazing-card,
+    #product-balcony-glazing-card,
+    #product-terrace-glazing-card {
         width: 90%;
     }
 
