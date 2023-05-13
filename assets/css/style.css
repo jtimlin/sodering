@@ -13,7 +13,7 @@ body {
     background-color: #7E8479;
 }
 
-#container {
+#logo-menu-container {
     margin-top: 25px;
     position: relative;
 }
@@ -70,11 +70,6 @@ body {
 
 #menu a:hover {
     font-weight: bold;
-}
-
-#menu a:active {
-    font-weight: bold;
-    color: rgba(56, 66, 72, 0.9);
 }
 
 #menu,
@@ -163,11 +158,6 @@ body {
     font-weight: bold;
 }
 
-#card-content a:active {
-    font-weight: bold;
-    color: rgba(56, 66, 72, 0.9);
-}
-
 #balcony-glazing-card-image {
     background: url('../images/balcony_glazing.jpg') no-repeat center center;
     background-size: cover;
@@ -236,19 +226,14 @@ body {
 
 #terrace-glazing-card-image {
     background: url('../images/terrace_glazing_2.jpg') no-repeat center center;
-    background-size: cover;
-    height: 300px;
-    position: relative;
-    overflow: hidden;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: -30px;
-    border-radius: 6px;
-    box-shadow: 0 8px 13px -12px rgba(0, 0, 0, 0.56), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 
 #product-terrace-glazing-card-image {
     background: url('../images/terrace_glazing.jpg') no-repeat center center;
+}
+
+#terrace-glazing-card-image,
+#product-terrace-glazing-card-image {
     background-size: cover;
     height: 300px;
     position: relative;
@@ -295,4 +280,76 @@ body {
 #footer a:active {
     font-weight: bold;
     color: rgba(56, 66, 72, 0.9);
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    #logo-menu {
+        height: 140px;
+        width: 90%;
+    }
+
+    #logo {
+        font-size: 200%;
+        top: 20%;
+    }
+
+    #menu {
+        font-size: 100%;
+        letter-spacing: 2px;
+    }
+
+    #menu li {
+        margin-right: 20px;
+    }
+
+    #menu,
+    #logo {
+        line-height: 50px;
+    }
+
+    #index-image {
+        margin-top: -230px;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+    #logo-menu {
+        width: 90%;
+    }
+
+    #logo {
+        font-size: 200%;
+        top: 50%;
+        overflow: hidden;
+    }
+
+    #menu {
+        font-size: 100%;
+        letter-spacing: 2px;
+    }
+
+    #menu li {
+        margin-right: 20px;
+    }
+
+    #menu,
+    #logo {
+        line-height: 80px;
+    }
+
+    #index-image {
+        margin-top: -230px;
+    }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+    ...
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+    ...
 }
