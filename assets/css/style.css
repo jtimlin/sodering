@@ -164,6 +164,12 @@ body {
     background-size: cover;
 }
 
+#contact-image {
+    background: url('../images/installation_image.jpg') no-repeat center center;
+    height: 400px;
+    background-size: cover;
+}
+
 #product-balcony-glazing-card-video {
     height: 300px;
     width: 40%;
