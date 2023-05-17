@@ -13,6 +13,8 @@ body {
     background-color: #7E8479;
 }
 
+/* LOGO MENU BAR SECTION */
+
 #logo-menu-container {
     margin-top: 25px;
     position: relative;
@@ -77,6 +79,8 @@ body {
     line-height: 85px;
 }
 
+/* INDEX HERO IMAGE */
+
 #index-image-outer {
     width: 100%;
     display: flex;
@@ -91,6 +95,8 @@ body {
     margin-top: -110px;
     background-color: #384248;
 }
+
+/* (PRODUCT) CARDS SECTION */
 
 #cards-outer {
     display: flex;
@@ -170,6 +176,8 @@ body {
     height: 400px;
     background-size: cover;
 }
+
+/* PRODUCT VIDEO */
 
 #product-balcony-glazing-card-video {
     height: 300px;
@@ -288,6 +296,7 @@ body {
     font-weight: bold;
 }
 
+/* MEDIA QUERIES SECTION */
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
