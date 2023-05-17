@@ -229,19 +229,20 @@ body {
 
 #footer-outer {
     display: flex;
+    align-items: center;
     justify-content: center;
     margin-bottom: 50px;
     width: 100%;
 }
 
 #footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
     font-size: 1.1em;
     font-family: Josefin Sans, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
     color: #384248;
-    text-align: center;
-    line-height: 85px;
     background-color: rgba(245, 244, 230);
     height: 80px;
     width: 70%;
