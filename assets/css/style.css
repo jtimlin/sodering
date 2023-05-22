@@ -548,3 +548,11 @@ body {
         margin-bottom: 0px;
     }
 }
+
+/* Smaller desktop */
+@media screen and (min-width: 1280px) and (max-width: 1550px) {
+
+    #menu-outer {
+        justify-content: center;
+    }
+}
