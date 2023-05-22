@@ -455,6 +455,10 @@ body {
         width: 90%;
     }
 
+    #glazing-video {
+        width: 100%;
+    }
+
     #footer {
         flex-direction: row;
         font-size: 1em;
