@@ -2,14 +2,7 @@
 
 This is the portfolio project nr 1 for Code Institute. This is a website for a company called Södertörns Inglasning AB who is located in Sweden Stockholm.
 
-Company sales balcony and terrace glass roofs and glazings. All the images on the web page comes from their product supplier "Malmerk klaasium" -> <https://malmerkklaasium.ee/sv/>
-
-<h3>Sources:</h3>
-
-For the colouring: <http://colormind.io/<br>>
-Icons: <https://fontawesome.com/<br>>
-Fonts: <https://fonts.google.com/<br>>
-Box shadow code: <https://getcssscan.com/css-box-shadow-examples<br>>
+Company sales balcony and terrace glass roofs and glazings.
 
 ![Site view across devices](/assets/images-readme/devices-layout.png)
 
@@ -38,7 +31,6 @@ Link to live website can be found [HERE](https://jindah.github.io/sodering/)
       - [Menu Page:](#menu-page)
       - [Contact Page:](#contact-page)
       - [Social Links:](#social-links)
-      - [Footer comments:](#footer-comments)
     - [Future Features:](#future-features)
   - [Testing](#testing)
     - [Validator Testing](#validator-testing)
@@ -165,17 +157,11 @@ Links to the companies social media pages can be found on the bottom of each pag
 
 ![Social Links](/assets/images-readme/social-links.png)
 
-#### Footer comments:
-
-A comment has been added to the footer to indicate that the site is intended for educational purposes only. This has been done as the hero-image used was sourced from a google search, and I do not have the rights to the image. The image has been credited in this document.
 
 ### Future Features:
 
 - Gallery.
-- A reservation page.
-- Recipes page.
-- Live chatbot.
-- Live GPS location of the truck.
+- More product information.
 
 ## Testing
 
@@ -238,9 +224,8 @@ Issues with placement of the images next to the descriptions was also resolved o
 
 - Google Fonts - for the font families: Special Elite, Raleway & Cabin Sketch. San-serif was used as a default font.
 - Font Awesome - to add icons to the social links in the footer element.
-- GitPod - to creat my html files & styling sheet before pushing the project to Github.
+- codeanywhere - to creat my html files & styling sheet before pushing the project to Github.
 - GitHub - to store my repository for submission.
-- Figma & Adobe Illustrator - were used to create mockups of the project prior to starting.
 - Am I Responsive? - to ensure the project looked good across all devices.
 - Favicon - to provide the code & image for the icon in the tab bar.
 
@@ -249,63 +234,23 @@ Issues with placement of the images next to the descriptions was also resolved o
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 - In the GitHub repository, navigate to the Settings tab
-- From the source section drop-down menu, select the Master Branch
-- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-- The live link can be found [HERE - La Lucha](https://cluelessbiker.github.io/project1-la-lucha/index.html)
+- From the source section drop-down menu, select the debloy from a branch
+- Once the main branch has been selected, click save and the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 ## Credits
 
 ### Content
 
-As my knowledge of implementation is limited at this point in my learning, the initial set up & style was set loosely on the 'Love Running' walk-through project. From there, I took inspiration for the design of the navigation bar, along with the display of the social links in the footer element.
+All text content comes from sodering current website https://www.sodering.se.
 
-The styling of the form element in 'Love Running' was used as a starting point for my form to help remember all categories that needed to be addressed.
-
-Stackoverflow [Reply](https://stackoverflow.com/questions/16056591/font-scaling-based-on-width-of-container) was used to fix the issue with scaling font sizes, where I was reminded of how to size fonts with viewport widths & heights.
-
-Stackoverflow [Reply](https://stackoverflow.com/questions/1150163/stretch-and-scale-a-css-image-in-the-background-with-css-only) was used to fix the issue with image sizes within their containers, where I found the styling rule
-
-```
-background-size: 100% 100%;.
-```
-
-Another useful site that also helped with my image sizing issues & explained it in more detail was [Digital Ocean](https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit).
-
-My cousin turned me on to [flex style rules](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), & with those, I was finally able to fix my alignment issues both horizontally & vertically using the following three rules:
-
-```
-1. display:flex;
-2. align-items:center;
-3. justify-content:space-between;
-```
-
-Stackoverflow [Reply](https://stackoverflow.com/questions/1150163/stretch-and-scale-a-css-image-in-the-background-with-css-only) supplied the style rules to stretch the text in the "locations" page banner.
-
-```
-1. transform: scaleY(2);
-2. transform-origin: 0 0;
-```
-
-Stackoverflow [Reply](https://stackoverflow.com/questions/63437323/how-to-remove-display-flex-in-media-query) provided the answer on how to undo my flex styling rule.
-
-Stackoverflow [Reply](https://stackoverflow.com/questions/4888377/how-to-add-a-browser-tab-icon-favicon-for-a-website) explained how to add an icon to the browser tab of the web page.
-
-Support was provided by my fellow student [Mats](https://github.com/Pelikantapeten/p1-nacka-tomato-society) by aiding me in bouncing off ideas & venting frustrations. They were also immeasurably helpful in explaining Media Queries in a way that I was able to grasp. They also informed me that when creating a contact form, one most also create a form-dump page.
+For the colouring: <http://colormind.io/<br>>
+Box shadow code: <https://getcssscan.com/css-box-shadow-examples<br>>
 
 ### Media
 
-- Hero image is called ["Food Truck in the Street"](<https://www.thebalancesmb.com/thmb/IRZI2gmNsYFTTPCH774ohMD4uJE=/2088x1436/filters:fill(auto,1)/food-truck-in-the-street-496731672-863bfb69328341c1804fec18e39be715.jpg>) by Maica
+These two images came from Sodering current website https://www.sodering.se.
 
-The following images came from Pexel:
+- installation_image.jpg at contact page
+- balcony_glazing_1.jpg at products page
 
-- [Three Purple Chairs - Pexel](https://www.pexels.com/photo/three-purple-plastic-chairs-3013212/)
-- [Photo by Brett Sayles - B&W Aztec food truck](https://www.pexels.com/photo/grayscale-photograph-of-two-people-standing-in-front-of-food-truck-1264937/)
-- [Photo by Jess - shrimp tacos](https://www.pexels.com/photo/white-and-blue-bus-near-green-palm-tree-under-blue-sky-4609255/)
-- [Photo by cottonbro - chalk background](https://www.pexels.com/photo/black-wall-in-close-up-image-3826435/)
-- [Photo by Andrea Piacquadio - messy chalkboard](https://www.pexels.com/photo/woman-in-red-long-sleeve-writing-on-chalk-board-3769714/)
-- [Photo by Rodnae Productions - foodtruck staff](https://www.pexels.com/photo/man-and-woman-standing-in-front-of-the-food-truck-5779665/)
-- [Photo by Roberto Nickson - palm trees](https://www.pexels.com/photo/green-and-brown-coconut-trees-under-clear-blue-sky-2486168/)
-
-Stocksnap supplied this one:
-
-- [Photo by Bruce Mars - vegetable stand](https://stocksnap.io/photo/vegetable-stall-KZ19NV9MVY)
+ All the other images on the web page comes from their product supplier "Malmerk klaasium" -> <https://malmerkklaasium.ee/sv/>
