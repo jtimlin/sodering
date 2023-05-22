@@ -15,27 +15,65 @@ body {
 
 /* LOGO MENU BAR SECTION */
 
-#logo-menu-container {
-    margin-top: 25px;
-    position: relative;
+#header-outer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    background-color: #384248;
+
 }
 
-#logo-menu {
+#products-header-outer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #7E8479;
+
+}
+
+#index-hero-image {
+    background: url('../images/index_big_img_3.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+#logo-menu-container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
     height: 80px;
     width: 70%;
     background-color: rgba(245, 244, 230, 0.9);
     border-radius: 6px;
     margin: 0 auto;
     box-shadow: 0 8px 13px -12px rgba(0, 0, 0, 0.56), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    margin-top:25px;
+}
+
+#logo-outer {
+    display: flex;
+    order: 1;
+    justify-content: left;
+    align-items: center;
+    height: 100%;
+    width:50%;
+}
+
+#menu-outer {
+    display: flex;
+    order: 2;
+    justify-content: right;
+    align-items: center;
+    height: 100%;
+    width:50%;
 }
 
 #logo {
     margin-left: 60px;
-    position: relative;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    float: left;
     font-size: 2.8em;
     text-transform: uppercase;
     font-family: Economica, sans-serif;
@@ -48,52 +86,39 @@ body {
     -moz-text-fill-color: transparent;
 }
 
+#logo-outer a {
+    text-decoration: none;
+}
+
 #menu {
     font-size: 1.1em;
     font-family: Josefin Sans, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #384248;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
 }
 
 #menu li {
-    float: right;
+    float:right;
     list-style-type: none;
-    margin-right: 50px;
+    margin-right: 60px;
 }
 
 #menu a {
     text-decoration: none;
     color: inherit;
+    box-shadow: inset 0 0 0 0 #7E8479;
+    padding: .25rem;
+    margin: .25rem;
 }
 
 #menu a:hover {
     font-weight: bold;
+    box-shadow: inset 200px 0 0 0 #7E8479;
 }
 
-#menu,
-#logo {
-    line-height: 85px;
-}
-
-/* INDEX HERO IMAGE */
-
-#index-image-outer {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-#index-image {
-    height: 500px;
-    width: 100%;
-    background: url('../images/index_big_img_3.jpg') no-repeat center center;
-    background-size: cover;
-    margin-top: -110px;
-    background-color: #384248;
+#selected {
+    font-weight: bold;
 }
 
 /* (PRODUCT) CARDS SECTION */
@@ -227,7 +252,7 @@ body {
 
 /* FOOTER SECTION */
 
-#footer-outer {
+.footer-outer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -254,7 +279,7 @@ body {
 
 #contact-form-outer {
     width: 70%;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 #contact-form {
@@ -299,18 +324,35 @@ body {
 
 /* MEDIA QUERIES SECTION */
 
-/* Landscape phones and down */
-@media (max-width: 480px) {
-
-    #logo-menu {
+/* Landscape phones or smaller */
+@media screen and (max-width: 480px) {
+    #logo-menu-container {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
         height: 150px;
         width: 90%;
-        margin-top: 10px;
+        margin-top: 20px;
     }
 
+    #logo-outer {
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+    
+    #menu-outer {
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        width: 50%;
+    }
+    
     #logo {
         font-size: 2em;
-        top: 30%;
+        margin: 0;
     }
 
     #menu {
@@ -319,16 +361,7 @@ body {
     }
 
     #menu li {
-        margin-right: 10px;
-    }
-
-    #menu,
-    #logo {
-        line-height: 50px;
-    }
-
-    #index-image {
-        margin-top: -230px;
+        float:right;
     }
 
     #cards-outer,
@@ -352,25 +385,112 @@ body {
     #footer {
         font-size: 1em;
         letter-spacing: 2px;
-        line-height: 50px;
         height: 100%;
         width: 90%;
         padding: 5px;
+    }
+
+    #footer-outer {
+        margin-bottom: 20px;
     }
 }
 
 /* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
 
-    #logo-menu {
-        width: 90%;
+    #logo-menu-container {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
         height: 150px;
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    #logo-outer {
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+    
+    #menu-outer {
+        display: flex;
+        height: 100%;
+        width: 50%;
     }
 
     #logo {
         font-size: 2em;
-        top: 50%;
-        overflow: hidden;
+        margin: 0px;
+    }
+
+    #menu {
+        font-size: 1em;
+        letter-spacing: 2px;
+    }
+
+    #menu li {
+        float: right;
+        margin-right: 20px;
+    }
+
+    #cards-outer,
+    #product-cards-outer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #balcony-glazing-card,
+    #terrace-glazing-card,
+    #product-balcony-glazing-card,
+    #product-terrace-glazing-card {
+        width: 90%;
+    }
+
+    #footer {
+        flex-direction: row;
+        font-size: 1em;
+        letter-spacing: 2px;
+        margin: 2%;
+        height: 80px;
+        width: 90%;
+    }
+
+    #footer-outer {
+        margin-bottom: 20px;
+    }
+}
+
+/* Portrait tablet to desktop */
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    #logo-menu-container {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        height: 80px;
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    #logo-outer {
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        width: 80%;
+    }
+    
+    #menu-outer {
+        display: flex;
+        height: 100%;
+        width: 120%;
+    }
+
+    #logo {
+        font-size: 2em;
+        margin-left: 20px;
     }
 
     #menu {
@@ -380,15 +500,7 @@ body {
 
     #menu li {
         margin-right: 20px;
-    }
-
-    #menu,
-    #logo {
-        line-height: 80px;
-    }
-
-    #index-image {
-        margin-top: -230px;
+        float: right;
     }
 
     #cards-outer,
@@ -408,68 +520,12 @@ body {
     #footer {
         font-size: 1em;
         letter-spacing: 2px;
-        line-height: 50px;
-        height: 100%;
+        height: 80px;
         width: 90%;
         padding: 5px;
     }
-}
-
-/* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) {
-    #logo-menu {
-        width: 90%;
+    
+    #footer-outer {
+        margin-bottom: 20px;
     }
-
-    #logo {
-        font-size: 2em;
-        top: 50%;
-        overflow: hidden;
-    }
-
-    #menu {
-        font-size: 1em;
-        letter-spacing: 2px;
-    }
-
-    #menu li {
-        margin-right: 20px;
-    }
-
-    #menu,
-    #logo {
-        line-height: 80px;
-    }
-
-    #index-image {
-        margin-top: -230px;
-    }
-
-    #cards-outer,
-    #product-cards-outer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #balcony-glazing-card,
-    #terrace-glazing-card,
-    #product-balcony-glazing-card,
-    #product-terrace-glazing-card {
-        width: 90%;
-    }
-
-    #footer {
-        font-size: 1em;
-        letter-spacing: 2px;
-        line-height: 50px;
-        height: 100%;
-        width: 90%;
-        padding: 5px;
-    }
-}
-
-/* Large desktop */
-@media (min-width: 1200px) {
-    ...
 }
