@@ -106,7 +106,7 @@ this is included across all three pages, and provides people with an easy refere
 
 This defines the feel of the website, providing the user with an image that they can easily associate to what the company is & does.
 
-![Hero image](/assets/images-readme/home-heroimage.png)
+![Hero image](/assets/images-readme/home-heroimage.jpg)
 
 The About section is listed right beneath the Hero Image, to provide more clarity on the company, and give a better feel to who & what it is.
 
@@ -157,8 +157,10 @@ The media inquiries turned out to be difficult when I had first made the appeara
 ### Validator Testing
 
 - Html files pass through the [W3C validator](https://validator.w3.org/) with no issues found.
+![W3C validator message](/assets/images-readme/validator-html.png)
 
 - CSS files pass through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) with no issues found.
+![Jigsaw validator message](/assets/images-readme/validator-css.png)
 
 - page has an excellent Accessibility rating in Lighthouse
   ![Accessibility score](/assets/images-readme/accessibility-score.png)
