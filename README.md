@@ -1,8 +1,6 @@
 # SODERING GLAZING LTD.
 
-This is the portfolio project nr 1 for Code Institute. This is a website for a company called Sodering glazing Ltd. (Södertörns/Södering inglasning AB) who is located in Sweden Stockholm.
-
-Company sales balcony and terrace glass roofs and glazings.
+This project serves as Portfolio Project #1 for Code Institute. It involves creating a website for Sodering Glazing Ltd. (Södertörns/Södering Inglasning AB), a Swedish company based in Stockholm. The company specializes in selling balcony and terrace glass roofs, as well as various glazing solutions.
 
 ![Site view across devices](/assets/images-readme/devices-layout.png)
 
@@ -80,7 +78,7 @@ The website features a user-friendly interface to help visitors easily access re
 
 ### Colour Scheme:
 
-Colorming.io was utilized to create a color palette with excellent contrast and harmonious colors that work well together. Colormind, on the other hand, is a color scheme generator that employs deep learning. It has the ability to learn color styles from photographs, movies, and popular artwork.
+Colorming.io was utilized to create a color palette with excellent contrast and harmonious colors that work well together.
 ![Colour Palette](/assets/images-readme/colour-palette.png)
 
 ### Typography:
