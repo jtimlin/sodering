@@ -28,7 +28,6 @@ Link to live website can be found [HERE](https://jindah.github.io/sodering/)
       - [Navigation bar:](#navigation-bar)
       - [Landing Page:](#landing-page)
       - [Products Page:](#products-page)
-      - [Menu Page:](#menu-page)
       - [Contact Page:](#contact-page)
       - [Social Links:](#social-links)
     - [Future Features:](#future-features)
@@ -170,6 +169,9 @@ The media inquiries turned out to be difficult when I had first made the appeara
 - All links open to external pages as intended.
 
 ### Unfixed Bugs
+
+- Navigation menu for mobile users can be better.
+- Footer for mobile users can be better.
 
 ## Technologies Used
 

@@ -101,7 +101,7 @@ body {
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 60px;
+    margin-right: 30px;
 }
 
 #menu a {
@@ -347,7 +347,7 @@ body {
         display: flex;
         justify-content: center;
         height: 100%;
-        width: 50%;
+        width: 100%;
     }
 
     #logo {
@@ -362,6 +362,7 @@ body {
 
     #menu li {
         float: right;
+        margin-right: 0px;
     }
 
     #cards-outer,
@@ -422,8 +423,9 @@ body {
 
     #menu-outer {
         display: flex;
+        justify-content: center;
         height: 100%;
-        width: 50%;
+        width: 100%;
     }
 
     #logo {
@@ -438,7 +440,7 @@ body {
 
     #menu li {
         float: right;
-        margin-right: 20px;
+        margin-right: 0px;
     }
 
     #cards-outer,
@@ -479,7 +481,7 @@ body {
 }
 
 /* Portrait tablet to desktop */
-@media screen and (min-width: 768px) and (max-width: 1279px) {
+@media screen and (min-width: 768px) and (max-width: 1290px) {
     #logo-menu-container {
         align-items: center;
         justify-content: center;
