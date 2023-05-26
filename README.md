@@ -152,7 +152,6 @@ I also ran the css file through the W3C validator and it was flawless.
 The media inquiries turned out to be difficult when I had first made the appearance of the pages suitable for desktop. It should definitely have been made suitable for mobile phones first. The solution to this, however, turned out to be flexboxes. The menu works now, but it could be changed to be more suitable for mobile phones by using a hamburger-style menu.
 
 - The website was constantly tested during development using Chrome dev tools.
-- Tested sign up and contact form with and without inputs in all fields.
 - Tested all links on all pages.
 - Verified that the contact form cannot be submitted without the required information (First Name, Last Name, Email and Message)
 - Tested the site opens in Chrome, Safari and Microsoft Edge without issues.
@@ -175,6 +174,7 @@ The media inquiries turned out to be difficult when I had first made the appeara
 
 - Navigation menu for mobile users can be better.
 - Footer for mobile users can be better.
+- There is no ALT text to images in products page. They are background images so its not possible to add it directly to the picture.
 
 ## Technologies Used
 
