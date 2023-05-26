@@ -151,6 +151,14 @@ I also ran the css file through the W3C validator and it was flawless.
 
 The media inquiries turned out to be difficult when I had first made the appearance of the pages suitable for desktop. It should definitely have been made suitable for mobile phones first. The solution to this, however, turned out to be flexboxes. The menu works now, but it could be changed to be more suitable for mobile phones by using a hamburger-style menu.
 
+- The website was constantly tested during development using Chrome dev tools.
+- Tested sign up and contact form with and without inputs in all fields.
+- Tested all links on all pages.
+- Verified that the contact form cannot be submitted without the required information (First Name, Last Name, Email and Message)
+- Tested the site opens in Chrome, Safari and Microsoft Edge without issues.
+- All links open to external pages as intended.
+
+
 ### Validator Testing
 
 - Html files pass through the [W3C validator](https://validator.w3.org/) with no issues found.
@@ -162,9 +170,6 @@ The media inquiries turned out to be difficult when I had first made the appeara
 - page has an excellent Accessibility rating in Lighthouse
   ![Accessibility score](/assets/images-readme/accessibility-score.png)
 
-- Tested the site opens in Chrome, Safari and Microsoft Edge without issues.
-
-- All links open to external pages as intended.
 
 ### Unfixed Bugs
 
@@ -193,6 +198,29 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - In the GitHub repository, navigate to the Settings tab
 - From the source section drop-down menu, select the debloy from a branch
 - Once the main branch has been selected, click save and the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+### How to Fork it
+1. On GitHub, go to [jindah/sodering](https://github.com/jindah/sodering).
+2. In the top right, click "Fork".
+
+### How to Clone it
+1. Go to the main page of the repository.
+3. Above the file list, click "Code".
+4. Select HTTPS, SSH, or GitHub CLI and then click copy to clone it.
+5. Open Git Bash.
+6. Change the location of your cloned repository.
+7. Type `git clone` and then paste the URL you copied.
+8. Press “Enter” to create your clone.
+
+### Making a Local Clone
+1. Locate the [Repository](https://github.com/jindah/sodering).
+2. Click "Code".
+3. Click Clone or Download.
+4. Copy the Git URL from the dialogue box.
+5. Open a terminal window in your choosen directory using your preferred development editor.
+6. Change the location to where you want the cloned directory to be.
+7. Type `git clone`, and then paste the URL you copied.
+8. Press Enter, and your local clone will be created.
 
 ## Credits
 
