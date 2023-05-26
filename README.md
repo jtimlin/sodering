@@ -190,6 +190,7 @@ The media inquiries turned out to be difficult when I had first made the appeara
 - Codeanywhere - to creat my html files & styling sheet before pushing the project to Github.
 - GitHub - to store my repository for submission.
 - Devtools - to ensure the project looked good across all devices.
+- Favicon.io - for the favicon.
 
 ## Deployment
 
@@ -230,6 +231,7 @@ All text content comes from sodering current website https://www.sodering.se.
 
 For the colouring: <http://colormind.io/>
 Box shadow code: <https://getcssscan.com/css-box-shadow-examples>
+Favicon: <https://favicon.io>
 
 ### Media
 

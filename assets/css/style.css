@@ -368,12 +368,9 @@ body {
         margin: 0;
     }
 
-    #menu {
-        font-size: 1em;
-        letter-spacing: 2px;
-    }
-
     #menu li {
+        font-size: 0.9em;
+        letter-spacing: 1px;
         float: right;
         margin-right: 0px;
     }
