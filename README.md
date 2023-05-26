@@ -235,7 +235,7 @@ Box shadow code: <https://getcssscan.com/css-box-shadow-examples>
 
 These two images came from Sodering current website https://www.sodering.se.
 
-- installation_image.jpg at contact page.
-- balcony_glazing_1.jpg at products page.
+- installation_image.jpg at contact page. Photo by John Puolitaival.
+- balcony_glazing_1.jpg at products page. Photo by John Puolitaival.
 
  All the other images on the web page comes from their product supplier "Malmerk klaasium" <https://malmerkklaasium.ee/sv/>
